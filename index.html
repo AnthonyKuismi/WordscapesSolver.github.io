@@ -38,7 +38,7 @@
                 var lettersCount = new Map();
                 var validWords;
                 var allowedWords = "";
-                //letters = letters.toUpperCase();
+                letters = letters.toLowerCase();
                 lettersCount = getCharacterCountMap(letters);
                 document.getElementById("letters").innerHTML = letters;
                 const xhr = new XMLHttpRequest();
